@@ -44,8 +44,17 @@ A aplicação que será testada está disponível em:
     ```
 4. Configure as variáveis de ambiente (se necessário), como a URL base da API:
 - Arquivo: config/urls.js
-
-
+- Exemplo:
+```bash
+module.exports = {
+  BASE_URL: "http://localhost:3000/api",
+  PATHS: {
+    LOGIN: "/login",
+    USUARIOS: "/usuarios",
+    PLANOS: "/planos"
+  }
+};
+```
 ---
 
 ## ▶️ Execução dos testes
@@ -53,19 +62,19 @@ A aplicação que será testada está disponível em:
    npm test
 ```
 ### Executar apenas uma suite de testes (exemplo: planos)
-   ```bash
+```bash
    npx jest __tests__/planos.spec.js
-    ```
+```
    ou
-   ```bash
+```bash
    npx jest -t "Suite - Manter Plano de Testes"
-    ```
+```
    
     
 ### Executar apenas um teste específico dentro da suite
-   ```bash
+```bash
    npx jest -t "Deve alterar plano de teste com sucesso"
-    ```
+```
 
 ## 📄 Observações
 
