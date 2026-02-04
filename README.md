@@ -55,7 +55,7 @@ A aplicação que será testada está disponível em:
   }
    };
  ```
-
+---
 ## ▶️ Execução dos testes
 
    ```bash
