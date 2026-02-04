@@ -51,7 +51,7 @@ A aplicação que será testada está disponível em:
 ## ▶️ Execução dos testes
 ```bash
    npm test
-    ```
+```
 ### Executar apenas uma suite de testes (exemplo: planos)
    ```bash
    npx jest __tests__/planos.spec.js
