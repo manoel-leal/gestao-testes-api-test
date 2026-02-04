@@ -1,5 +1,5 @@
 # gestao-testes-api-test
-Projeto de automação de testes de API REST utilizando as tecnologias Supertest + Jest (Javascript).\
+Projeto de automação de testes de API REST utilizando as tecnologias Supertest + Jest (Javascript).
 
 # Projeto de Automação de Testes de API REST
 
@@ -56,3 +56,34 @@ A aplicação que será testada está disponível em:
   }};
    
     ```
+## ▶️ Execução dos testes
+
+   ```bash
+   npm test
+    ```
+### Executar apenas uma suite de testes (exemplo: planos)
+
+   ```bash
+   npx jest __tests__/planos.spec.js
+    ```
+   ou
+
+   ```bash
+   npx jest -t "Suite - Manter Plano de Testes"
+    ```
+   
+    
+### Executar apenas um teste específico dentro da suite
+
+   ```bash
+   npx jest -t "Deve alterar plano de teste com sucesso"
+    ```
+
+## 📄 Observações
+
+- Os testes são independentes e cada caso cria suas próprias pré-condições.
+- É recomendável que o back-end esteja rodando em ambiente local (http://localhost:3000) antes da execução.
+- Para maior performance, os testes podem ser distribuídos em múltiplos arquivos, aproveitando o paralelismo do Jest.
+
+
+   
