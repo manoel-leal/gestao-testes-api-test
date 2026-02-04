@@ -46,16 +46,15 @@ A aplicação que será testada está disponível em:
 - Arquivo: config/urls.js
 - Exemplo:
    ```bash
-   
    module.exports = {
   BASE_URL: "http://localhost:3000/api",
   PATHS: {
     LOGIN: "/login",
     USUARIOS: "/usuarios",
     PLANOS: "/planos"
-  }};
-   
-    ```
+  }
+   };
+ ```  
 ## ▶️ Execução dos testes
 
    ```bash
