@@ -49,7 +49,7 @@ A aplicação que será testada está disponível em:
 ---
 
 ## ▶️ Execução dos testes
-   ```bash
+```bash
    npm test
     ```
 ### Executar apenas uma suite de testes (exemplo: planos)
