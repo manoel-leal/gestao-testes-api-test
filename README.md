@@ -44,17 +44,7 @@ A aplicação que será testada está disponível em:
     ```
 4. Configure as variáveis de ambiente (se necessário), como a URL base da API:
 - Arquivo: config/urls.js
-- Exemplo:
-   ```js
-   module.exports = {
-  BASE_URL: "http://localhost:3000/api",
-  PATHS: {
-    LOGIN: "/login",
-    USUARIOS: "/usuarios",
-    PLANOS: "/planos"
-  }
-   };
- ```
+
 
 ---
 
