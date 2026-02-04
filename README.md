@@ -49,24 +49,20 @@ A aplicação que será testada está disponível em:
 ---
 
 ## ▶️ Execução dos testes
-
    ```bash
    npm test
     ```
 ### Executar apenas uma suite de testes (exemplo: planos)
-
    ```bash
    npx jest __tests__/planos.spec.js
     ```
    ou
-
    ```bash
    npx jest -t "Suite - Manter Plano de Testes"
     ```
    
     
 ### Executar apenas um teste específico dentro da suite
-
    ```bash
    npx jest -t "Deve alterar plano de teste com sucesso"
     ```
